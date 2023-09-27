@@ -16,4 +16,8 @@ favicon: /-/fastn-community.github.io/vs-svelte/favicon.ico
 
 # Home: index.html
 
-- Right Sidebar Sample: /sidebar/
+- Hello World: /hello-world/
+- Dynamic Attributes: /dynamic-attributes/
+- Styling: /styling/
+- Nested Components: /nested-components/
+- HTML tags: /html-tags/
