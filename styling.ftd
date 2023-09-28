@@ -1,3 +1,14 @@
 -- ds.page: Styling
 
+-- ftd.text: Styled!
+role: $font-type
+color: purple
+
 -- end: ds.page
+
+
+
+-- ftd.type font-type:
+size.em: 2
+font-family: cursive
+
