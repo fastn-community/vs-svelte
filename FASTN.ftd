@@ -22,4 +22,4 @@ document: hello-world.ftd
 - Styling: /styling/
 - Nested Components: /nested-components/
 document: nested-components-1.ftd
-- HTML tags 🚧: /html-tags/
+- HTML tags: /html-tags/
