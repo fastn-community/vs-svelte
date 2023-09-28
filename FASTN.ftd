@@ -20,5 +20,6 @@ document: hello-world.ftd
 - Hello World: /hello-world/
 - Dynamic Attributes: /dynamic-attributes/
 - Styling: /styling/
-- Nested Components 🚧: /nested-components/
+- Nested Components: /nested-components/
+document: nested-components-1.ftd
 - HTML tags 🚧: /html-tags/
