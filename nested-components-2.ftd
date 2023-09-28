@@ -1,0 +1,6 @@
+-- component nested:
+
+-- ftd.text: ...don't affect this element
+role: $inherited.types.copy-regular
+
+-- end: nested

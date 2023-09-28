@@ -1,19 +1,25 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
-favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+-- fastn.package: fastn-community.github.io/vs-svelte
+favicon: /-/fastn-community.github.io/vs-svelte/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
 
--- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/ds
--- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
+-- fastn.auto-import: fastn-community.github.io/vs-svelte/FASTN/ds
+-- fastn.auto-import: fastn-community.github.io/vs-svelte/assets
 -- fastn.auto-import: doc-site
 
 -- fastn.sitemap:
 
-# Home: index.html
+# Home: /
+document: hello-world.ftd
 
-- Right Sidebar Sample: /sidebar/
+- Hello World: /hello-world/
+- Dynamic Attributes: /dynamic-attributes/
+- Styling: /styling/
+- Nested Components: /nested-components/
+document: nested-components-1.ftd
+- HTML tags: /html-tags/

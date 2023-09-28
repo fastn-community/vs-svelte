@@ -1,0 +1,16 @@
+-- import: fastn-community.github.io/vs-svelte/nested-components-2 as nc
+
+-- ds.page: Nested Components
+
+-- ftd.text: These styles...
+role: $font-type
+color: purple
+
+-- nc.nested:
+
+-- end: ds.page
+
+
+-- ftd.type font-type:
+size.em: 2
+font-family: cursive

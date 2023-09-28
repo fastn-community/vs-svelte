@@ -1,0 +1,14 @@
+-- ds.page: Hello World as `h1` heading
+
+-- ds.h1: $greeting(a = $name)
+
+-- end: ds.page
+
+
+-- string name: world
+
+
+-- string greeting(a):
+string a:
+
+"Hello " + a + "!"

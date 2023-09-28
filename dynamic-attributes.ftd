@@ -1,0 +1,21 @@
+-- import: fastn-community.github.io/vs-svelte/assets
+
+-- ds.page: Dynamic Attributes
+
+-- ftd.image:
+src: $source
+alt: $alt-data(a = Rick Astley)
+align-self: start
+
+-- end: ds.page
+
+
+-- ftd.image-src source: $assets.files.assets.dancing.gif
+
+
+
+
+-- string alt-data(a):
+string a: 
+
+a + " dancing"
