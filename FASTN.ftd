@@ -14,8 +14,7 @@ favicon: /-/fastn-community.github.io/vs-svelte/favicon.ico
 
 -- fastn.sitemap:
 
-# Home: /index/
-document: hello-world.ftd
+# Home: index.html
 
 - Hello World: /hello-world/
 - Dynamic Attributes: /dynamic-attributes/
