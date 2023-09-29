@@ -1,0 +1,86 @@
+-- ds.page:
+
+-- ftd.text: **Output:**
+role: $inherited.types.heading-small
+
+-- ftd.row:
+spacing.fixed.px: 4
+background.solid: #efefef
+height: hug-content
+width: hug-content
+$on-click$: $ftd.increment($a = $x)
+margin.px: 15
+padding.px: 5
+border-width.px: 1
+border-radius.px: 2
+
+-- ftd.text: Clicked
+
+-- ftd.integer: $x
+
+
+-- ftd.text: times
+
+-- end: ftd.row
+
+
+
+-- ds.code: `fastn` source code
+
+\-- ftd.row:
+spacing.fixed.px: 4
+background.solid: #efefef
+height: hug-content
+width: hug-content
+$on-click$: $ftd.increment($a = $x)
+margin.px: 15
+padding.px: 5
+border-width.px: 1
+
+\-- ftd.text: Clicked
+
+\-- ftd.integer: $x
+
+\-- ftd.text: times
+
+\-- end: ftd.row
+
+
+\-- integer $x: 0
+
+\-- string statement($x):
+integer $x:
+
+"Clicked" + $x + "times"
+
+
+-- ds.code: `svelte` source code
+lang: html
+
+<script>
+	let count = 0;
+
+	function handleClick() {
+		count += 1;
+	}
+<\/script>
+
+<button on:click={handleClick}>
+	Clicked {count}
+	{count === 1 ? 'time' : 'times'}
+<\/button>
+
+
+-- ds.markdown:
+
+[View the `svelte code and output`](https://svelte.dev/examples/reactive-assignments)
+
+-- end: ds.page
+
+
+-- integer $x: 0
+
+-- string statement($x):
+integer $x:
+
+"Clicked" + $x + "times"
