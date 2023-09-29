@@ -1,18 +1,51 @@
 -- import: fastn-community.github.io/vs-svelte/assets
 
--- ds.page: Dynamic Attributes
+-- ds.page: 
+
+-- ftd.text: **Output:**
+role: $inherited.types.heading-small
 
 -- ftd.image:
 src: $source
 alt: $alt-data(a = Rick Astley)
 align-self: start
 
+-- ds.code: `fastn` source code
+
+\-- import: fastn-community.github.io/vs-svelte/assets
+
+\-- ftd.image:
+src: $source
+alt: $alt-data(a = Rick Astley)
+align-self: start
+
+\-- ftd.image-src source: $assets.files.assets.dancing.gif
+
+\-- string alt-data(a):
+string a: 
+
+a + " dancing"
+
+
+-- ds.code: `svelte` source code
+lang: html
+
+<script>
+	let src = '/tutorial/image.gif';
+	let name = 'Rick Astley';
+<\/script>
+
+<!-- {src} is short for src={src} -->
+<img {src} alt="{name} dancing" />
+
+-- ds.markdown:
+
+[View the `svelte code and output`](https://svelte.dev/examples/dynamic-attributes)
+
 -- end: ds.page
 
 
 -- ftd.image-src source: $assets.files.assets.dancing.gif
-
-
 
 
 -- string alt-data(a):
