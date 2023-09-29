@@ -1,11 +1,35 @@
--- ds.page: HTML tags
+-- ds.page:
+
+-- ftd.text: **Output:**
+role: $inherited.types.heading-small
 
 -- ftd.text: $statement
 
+-- ds.code: `fastn` source code
+
+\-- ftd.text: $statement
+
+\-- string statement: here's some **HTML!!!**
 
 
+-- ds.code: `svelte` source code
+lang: html
+
+<script>
+	let string = `here's some <strong>HTML!!!</strong>`;
+<\/script>
+
+<p>{@html string}</p>
+
+
+
+
+-- ds.markdown:
+
+[View the `svelte code and output`](https://svelte.dev/examples/html-tags)
 
 
 -- end: ds.page
+
 
 -- string statement: here's some **HTML!!!**

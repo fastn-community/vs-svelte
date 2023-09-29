@@ -1,8 +1,45 @@
--- ds.page: Styling
+-- ds.page: 
+
+-- ftd.text: **Output:**
+role: $inherited.types.heading-small
 
 -- ftd.text: Styled!
 role: $font-type
 color: purple
+
+
+-- ds.code: `fastn` source code
+
+\-- ds.page: Styling
+
+\-- ftd.text: Styled!
+role: $font-type
+color: purple
+
+\-- end: ds.page
+
+\-- ftd.type font-type:
+size.em: 2
+font-family: cursive
+
+
+-- ds.code: `svelte` source code
+
+<p>Styled!<\/p>
+
+<style>
+	p {
+		color: purple;
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 2em;
+	}
+<\/style>
+
+
+
+-- ds.markdown:
+
+[View the `svelte code and output`](https://svelte.dev/examples/styling)
 
 -- end: ds.page
 

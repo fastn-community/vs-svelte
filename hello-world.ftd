@@ -1,24 +1,47 @@
--- ds.page: Hello World as `h1` heading
+-- ds.page: 	
+
+-- ftd.text: **Output:**
+role: $inherited.types.heading-small
 
 -- ds.h1: $greeting(a = $name)
 
 
--- ds.code: Source code
-
-\-- ds.page: Hello World as `h1` heading
+-- ds.code: `fastn` source code
 
 \-- ds.h1: $greeting(a = $name)
 
-\-- end: ds.page
-
-
 \-- string name: world
-
 
 \-- string greeting(a):
 string a:
 
 "Hello " + a + "!"
+
+
+
+-- ds.code: `svelte` source code
+lang: html
+
+<script>
+    let name = 'world';
+<\/script>
+
+<h1>Hello {name}!</h1>
+
+
+-- ds.markdown:
+
+[View the `svelte code and output`](https://svelte.dev/examples/hello-world)
+
+
+
+/-- ftd.image:
+src: $assets.files.assets.svelte-hello-world.png
+link: https://svelte.dev/examples/hello-world
+border-width.px: 1
+border-radius.px: 10
+border-color: $inherited.colors.border
+width: fill-container
 
 -- end: ds.page
 
