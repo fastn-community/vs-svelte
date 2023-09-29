@@ -11,9 +11,15 @@ websites.
 
 Here is a quick list of examples:
 
+-- ds.h3: Introduction
+
 - [Hello World](/hello-world/)
 - [Dynamic Attributes](/dynamic-attributes/)
 - [Styling](/styling/)
 - [HTML tags](/html-tags/)
+
+-- ds.h3: Reactivity
+
+- [Reactive assignments](/reactive-assignments/)
 
 -- end: ds.page
