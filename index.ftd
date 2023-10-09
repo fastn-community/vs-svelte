@@ -21,5 +21,6 @@ Here is a quick list of examples:
 -- ds.h3: Reactivity
 
 - [Reactive assignments](/reactive-assignments/)
+- [Reactive declarations](/reactive-declarations/)
 
 -- end: ds.page
