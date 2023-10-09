@@ -7,10 +7,10 @@ exciting websites.
 ## Introduction
 
 - [Hello World](https://fastn-community.github.io/vs-svelte/hello-world/)
-- [Dynamic Attributes](/dynamic-attributes.ftd)
-- [Styling](/styling.ftd)
-- [Nested Components](/nested-components-1.ftd)
-- [HTML tags](/html-tags.ftd)
+- [Dynamic Attributes](https://fastn-community.github.io/vs-svelte/dynamic-attributes/)
+- [Styling](https://fastn-community.github.io/vs-svelte/styling/)
+- [Nested Components](https://fastn-community.github.io/vs-svelte/nested-components/)
+- [HTML tags](https://fastn-community.github.io/vs-svelte/html-tags/)
 
 ## Reactivity
 
