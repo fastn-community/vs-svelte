@@ -1,0 +1,72 @@
+-- ds.page:
+
+-- ftd.text: **Output:**
+role: $inherited.types.heading-small
+
+
+
+-- ftd.column:
+margin.px: 15
+spacing.fixed.px: 10
+
+-- ftd.row:
+spacing.fixed.px: 4
+background.solid: #efefef
+height: hug-content
+width: hug-content
+padding.px: 5
+border-width.px: 1
+border-radius.px: 2
+$on-click$: $ftd.increment($a = $count)
+
+-- ftd.text: Count:
+
+-- ftd.integer: $count
+
+-- end: ftd.row
+
+
+
+-- ftd.text: $format-output(a = $count, b = $count-doubled)
+
+
+-- ftd.text: $format-output(a = $count-doubled, b = $count-quadrupled)
+
+-- end: ftd.column
+
+-- end: ds.page
+
+
+
+
+
+
+
+-- integer $count: 1
+
+-- integer $count-doubled: $doubled($x = *$count)
+
+-- integer $count-quadrupled: $quadrupled($y = *$count-doubled)
+
+
+
+;; Function 1: doubled
+-- integer doubled(x):
+integer $x:
+
+x * 2
+
+
+
+;; Function 2: quadrupled
+-- integer quadrupled(y):
+integer $y:
+
+y * 2
+
+
+-- string format-output(a,b):
+integer a:
+integer b:
+
+a + " * 2 = " + b 
