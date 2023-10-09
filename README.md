@@ -14,8 +14,8 @@ exciting websites.
 
 ## Reactivity
 
-- [Reactive assignments](/reactive-assignments.ftd)
-- [Reactive declarations](/reactive-declarations.ftd)
+- [Reactive assignments](https://fastn-community.github.io/vs-svelte/reactive-assignments/)
+- [Reactive declarations](https://fastn-community.github.io/vs-svelte/reactive-declarations/)
 
 
 # fastn and Curious?
