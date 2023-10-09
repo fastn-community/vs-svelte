@@ -24,3 +24,4 @@ favicon: /-/fastn-community.github.io/vs-svelte/favicon.ico
 document: nested-components-1.ftd
 - HTML tags: /html-tags/
 - Reactive assignments: /reactive-assignments/
+- Reactive declarations: /reactive-declarations/
