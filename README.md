@@ -6,15 +6,16 @@ exciting websites.
 
 ## Introduction
 
-- [Hello World](/hello-world/)
-- [Dynamic Attributes](/dynamic-attributes/)
-- [Styling](/styling/)
-- [HTML tags](/html-tags/)
+- [Hello World](/hello-world.ftd)
+- [Dynamic Attributes](/dynamic-attributes.ftd)
+- [Styling](/styling.ftd)
+- [Nested Components](/nested-components-1.ftd)
+- [HTML tags](/html-tags.ftd)
 
 ## Reactivity
 
-- [Reactive assignments](/reactive-assignments/)
-- [Reactive declarations](/reactive-declarations/)
+- [Reactive assignments](/reactive-assignments.ftd)
+- [Reactive declarations](/reactive-declarations.ftd)
 
 
 # fastn and Curious?
