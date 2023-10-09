@@ -12,7 +12,7 @@
 - [Reactive assignments](/reactive-assignments/)
 - [Reactive declarations](/reactive-declarations/)
 
-## fastn and Curious?
+# fastn and Curious?
 
 Discover more of fastn here.
 
@@ -21,7 +21,7 @@ Discover more of fastn here.
 - [Explore more Templates/ Components/ Package](https://fastn.com/featured/)
 
 
-## Support `fastn`
+# Support `fastn`
 
 - [Join our Discord Server](https://discord.gg/bucrdvptYd) to connect with other fastn enthusiasts and stay up to date with the latest developments.
 - [Star us on GitHub](https://github.com/fastn-stack/fastn/)
