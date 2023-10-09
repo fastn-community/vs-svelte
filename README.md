@@ -1,5 +1,9 @@
 # `fastn` vs Svelte
 
+`fastn` is a no-fuss alternative to the complexities of `Svelte` that 
+even someone who knows nothing about development can use and create 
+exciting websites.
+
 ## Introduction
 
 - [Hello World](/hello-world/)
@@ -11,6 +15,7 @@
 
 - [Reactive assignments](/reactive-assignments/)
 - [Reactive declarations](/reactive-declarations/)
+
 
 # fastn and Curious?
 
