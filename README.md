@@ -6,7 +6,7 @@ exciting websites.
 
 ## Introduction
 
-- [Hello World](/hello-world.ftd)
+- [Hello World](https://fastn-community.github.io/vs-svelte/hello-world/)
 - [Dynamic Attributes](/dynamic-attributes.ftd)
 - [Styling](/styling.ftd)
 - [Nested Components](/nested-components-1.ftd)
