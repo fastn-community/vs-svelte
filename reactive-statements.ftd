@@ -24,7 +24,7 @@ $on-click$: $alert(a = *$count)
 -- end: ftd.row
 
 
--- ds.code:
+-- ds.code: `fastn` source code
 
 \-- ds.page:
 
@@ -60,7 +60,7 @@ a >= 10 && alert("count is dangerously high!")
 
 
 
--- ds.code:
+-- ds.code: `svelte` source code
 lang: html
 
 <script>

@@ -95,7 +95,7 @@ a + " * 2 = " + b
 
 
 
--- ds.code:
+-- ds.code: `svelte` source code
 lang: html
 
 <script>
