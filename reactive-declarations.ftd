@@ -26,13 +26,100 @@ $on-click$: $ftd.increment($a = $count)
 -- end: ftd.row
 
 
-
 -- ftd.text: $format-output(a = $count, b = $count-doubled)
-
 
 -- ftd.text: $format-output(a = $count-doubled, b = $count-quadrupled)
 
 -- end: ftd.column
+
+
+
+-- ds.code: `fastn` source code
+
+\-- ds.page:
+
+\-- ftd.column:
+margin.px: 15
+spacing.fixed.px: 10
+
+\-- ftd.row:
+spacing.fixed.px: 4
+background.solid: #efefef
+height: hug-content
+width: hug-content
+padding.px: 5
+border-width.px: 1
+border-radius.px: 2
+$on-click$: $ftd.increment($a = $count)
+
+\-- ftd.text: Count:
+
+\-- ftd.integer: $count
+
+\-- end: ftd.row
+
+
+\-- ftd.text: $format-output(a = $count, b = $count-doubled)
+
+\-- ftd.text: $format-output(a = $count-doubled, b = $count-quadrupled)
+
+\-- end: ftd.column
+
+\-- end: ds.page
+
+
+\-- integer $count: 1
+
+\-- integer $count-doubled: $doubled($x = *$count)
+
+\-- integer $count-quadrupled: $quadrupled($y = *$count-doubled)
+
+
+\-- integer doubled(x):
+integer $x:
+
+x * 2
+
+
+\-- integer quadrupled(y):
+integer $y:
+
+y * 2
+
+
+\-- string format-output(a,b):
+integer a:
+integer b:
+
+a + " * 2 = " + b 
+
+
+
+-- ds.code:
+lang: html
+
+<script>
+	let count = 1;
+
+	// the `$:` means 're-run whenever these values change'
+	$: doubled = count * 2;
+	$: quadrupled = doubled * 2;
+
+	function handleClick() {
+		count += 1;
+	}
+<\/script>
+
+<button on:click={handleClick}>
+	Count: {count}
+<\/button>
+
+<p>{count} * 2 = {doubled}<\/p>
+<p>{doubled} * 2 = {quadrupled}<\/p>
+
+-- ds.markdown:
+
+[View the `svelte code and output`](https://svelte.dev/examples/reactive-declarations)
 
 -- end: ds.page
 
