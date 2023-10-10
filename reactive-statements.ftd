@@ -1,0 +1,34 @@
+-- ds.page:
+
+-- ftd.text: **Output:**
+role: $inherited.types.heading-small
+
+-- ftd.row:
+spacing.fixed.px: 4
+background.solid: #efefef
+height: hug-content
+width: hug-content
+margin.px: 15
+padding.px: 5
+border-width.px: 1
+border-radius.px: 2
+$on-click$: $ftd.increment($a = $count)
+$on-click$: $alert(a = *$count)
+
+-- ftd.text: Clicked
+
+-- ftd.integer: $count
+
+-- ftd.text: times
+
+-- end: ftd.row
+
+-- end: ds.page
+
+
+-- integer $count: 0
+
+-- void alert(a):
+integer a:
+
+a >= 10 && alert("count is dangerously high!") 
