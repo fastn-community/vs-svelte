@@ -17,12 +17,14 @@ favicon: /-/fastn-community.github.io/vs-svelte/favicon.ico
 
 # Home: index.html
 
-- Hello World: /hello-world/
-- Dynamic Attributes: /dynamic-attributes/
-- Styling: /styling/
-- Nested Components: /nested-components/
-document: nested-components-1.ftd
-- HTML tags: /html-tags/
-- Reactive assignments: /reactive-assignments/
-- Reactive declarations: /reactive-declarations/
-- Reactive statements: /reactive-statements/
+- Introduction: /hello-world/
+  - Hello World: /hello-world/
+  - Dynamic Attributes: /dynamic-attributes/
+  - Styling: /styling/
+  - Nested Components: /nested-components/
+  document: nested-components-1.ftd
+  - HTML tags: /html-tags/
+- Reactivity: /reactive-assignments/
+  - Reactive assignments: /reactive-assignments/
+  - Reactive declarations: /reactive-declarations/
+  - Reactive statements: /reactive-statements/
