@@ -16,6 +16,7 @@ exciting websites.
 
 - [Reactive assignments](https://fastn-community.github.io/vs-svelte/reactive-assignments/)
 - [Reactive declarations](https://fastn-community.github.io/vs-svelte/reactive-declarations/)
+- [Reactive statements](https://fastn-community.github.io/vs-svelte/reactive-statements/)
 
 
 # fastn and Curious?

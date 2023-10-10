@@ -23,6 +23,69 @@ $on-click$: $alert(a = *$count)
 
 -- end: ftd.row
 
+
+-- ds.code:
+
+\-- ds.page:
+
+\-- ftd.row:
+spacing.fixed.px: 4
+background.solid: #efefef
+height: hug-content
+width: hug-content
+margin.px: 15
+padding.px: 5
+border-width.px: 1
+border-radius.px: 2
+$on-click$: $ftd.increment($a = $count)
+$on-click$: $alert(a = *$count)
+
+\-- ftd.text: Clicked
+
+\-- ftd.integer: $count
+
+\-- ftd.text: times
+
+\-- end: ftd.row
+
+\-- end: ds.page
+
+
+\-- integer $count: 0
+
+\-- void alert(a):
+integer a:
+
+a >= 10 && alert("count is dangerously high!") 
+
+
+
+-- ds.code:
+lang: html
+
+<script>
+	let count = 0;
+
+	$: if (count >= 10) {
+		alert(`count is dangerously high!`);
+		count = 9;
+	}
+
+	function handleClick() {
+		count += 1;
+	}
+<\/script>
+
+<button on:click={handleClick}>
+	Clicked {count}
+	{count === 1 ? 'time' : 'times'}
+<\/button>
+
+
+-- ds.markdown:
+
+[View the `svelte code and output`](https://svelte.dev/examples/reactive-statements)
+
 -- end: ds.page
 
 
